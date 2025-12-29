@@ -1,1 +1,1 @@
-we have delete the check-out branch locally and trying to push the changes to remote branch
+we have delete the check-out branch locally and trying to push the changes to remote repo
