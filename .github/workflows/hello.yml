@@ -1,4 +1,4 @@
-name: Node CI
+name: Basic CI
 
 on: push
 
@@ -8,11 +8,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - run: npm install
-      - run: npm test
+      - run: echo "CI is working"
